@@ -7,7 +7,7 @@ import 'package:scanner_app/infrastructure/models/product/product.dart';
 
 
 Future<List<Product>> fetchDataFromApi(String barcodeValue) async {
- const baseUrl = 'http://10.238.56.236/mforero/consultaproducto/LiteVersion/makeViewByEanCam';
+ const baseUrl = 'http://10.238.56.236/mforero/consultaproducto/LiteVersion/makeViewByEanCam2';
   final parameters = {
     'ean': barcodeValue,
     'tienda': '1501',
